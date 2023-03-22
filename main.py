@@ -8,5 +8,6 @@ def online_av():
         while True:
             audio = reconhecimento.listen(source) #define o microfone como fonte de audio
             print(reconhecimento.recognize_google(audio, language='pt'))
-online_av()
+
 '''Código utilizado online, por isso lentidão'''
+online_av()
